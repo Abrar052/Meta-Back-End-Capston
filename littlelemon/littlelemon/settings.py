@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'restaurant',
+    'rest_framework',
+    'rest_framework.authtoken', #required for enabling token-based authentication
+    'djoser', #(!)keep after rest_framework.authtoken
 ]
 
 MIDDLEWARE = [
